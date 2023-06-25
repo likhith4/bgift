@@ -23,6 +23,20 @@ h1,h2,h4,h3,p{
     margin: 0px;
 
 }
+#cute{
+    background-color:#e8998d ;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    
+   
+
+}
 #b-age{
     background-color:#e8998d ;
     padding: 5px 10px;
@@ -46,4 +60,35 @@ h1,h2,h4,h3,p{
     border: 10px solid yellow;
     border-radius: 10px;
     margin: 0 auto;
+}
+#gift-img-cheers{
+    height: 200px;
+}
+#gift-img-cheers:hover{
+    background-image:url(/images/cheers.webp);
+    background-size: cover;
+    
+}
+#gift-img-happy:hover{
+    background-image: url(/images/happy.webp);
+    background-size: cover;
+    zoom:90%
+}
+#gift-img-react:hover{
+    background-image: url(/images/petting.webp);
+    background-size: cover;
+    zoom: 90%;
+}
+#gift-img-legend:hover{
+    background-image: url(/images/legend.webp);
+    background-size: cover;
+    zoom: 90%;
+}
+#gift-img-funny:hover{
+    background-image: url(/images/funny.webp);
+    background-size: cover;
+    zoom: 90%;
+}
+#b-date:hover,#cute:hover{
+    zoom: 150%;
 }
